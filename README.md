@@ -1,7 +1,7 @@
 ![ImagemApp](https://github.com/Gvn213/AppHospitalar/blob/master/app/src/main/res/drawable/app.png)
 
 
-# AppHospitalar
+# Aplicativo de gerenciamento de dados para ambiente hospitalar
 
 
 Aplicativo para sistemas Android, desenvolvido na linguagem de programação Java, a fim de auxiliar as recepcionistas do Hospital Beneficência Nipo-Brasileira de São Paulo - São Miguel Arcanjo a realizar a contagem de fichas de atendimento de pacientes 
