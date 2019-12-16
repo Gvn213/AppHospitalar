@@ -1,0 +1,4 @@
+#Wed Dec 04 12:32:35 BRST 2019
+base.0=C\:\\Users\\Pichau\\Downloads\\AppHospitalar-20190118T204202Z-001\\AppHospitalar\\AppHospitalar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

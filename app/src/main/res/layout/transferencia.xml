@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransActivity">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="169dp"
+        android:text="Data:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="244dp"
+        android:text="Paciente:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="319dp"
+        android:text="Hospital:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/edtPaciente"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Spinner
+        android:id="@+id/spinhosp"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="-50dp"
+        android:entries="@array/hospitais_arrays"
+        android:prompt="@string/hospitais_prompt" />
+
+    <ImageView
+        android:id="@+id/imgLer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtPaciente"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="4dp"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="131dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-38dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/textView10"
+        app:srcCompat="@drawable/app" />
+
+    <Button
+        android:id="@+id/btnConsulta"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Consultar Transferências"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignTop="@+id/imgLer"
+        android:layout_marginStart="-58dp"
+        android:layout_marginTop="72dp"
+        app:srcCompat="@drawable/hospitall" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="-12dp"
+        app:srcCompat="@drawable/paciente" />
+
+    <ImageView
+        android:id="@+id/imgSave"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <TextView
+        android:id="@+id/txtVew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:lineSpacingExtra="10sp"
+        android:text="SALVAR"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:fontFamily="sans-serif" />
+
+</RelativeLayout>

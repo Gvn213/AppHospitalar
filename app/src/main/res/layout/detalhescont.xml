@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContagemPasta.abacontagem">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edtAmarela"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/amarela" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edtAmarela"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="166dp"
+        android:src="@drawable/azul" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edtAmarela"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="249dp"
+        android:src="@drawable/semclass" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edtAmarela"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/verde" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="63dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/edtData"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="-33dp"
+        android:text="DATA "
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="30dp"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Data..."
+        android:inputType="none"
+        android:text=""
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtZerar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zerar Contagem"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnTese"
+        android:layout_width="39dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@+id/txtDesistencia"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtVermelha"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="105dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtOrtopedia"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="112dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtCirurgico"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="200dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtDesistencia"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="280dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtDesaparecidas"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="367dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtCanceladas"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="445dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtAmarela"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="192dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtVerde"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="275dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtAzul"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="362dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtSemclass"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="446dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtVermelha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="-6dp"
+        android:text="VERMELHA" />
+
+    <TextView
+        android:id="@+id/txtOrtopedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="-200dp"
+        android:text="ORTOPEDIA" />
+
+    <TextView
+        android:id="@+id/txtCirurgico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="-198dp"
+        android:text="CIRURGICO" />
+
+    <TextView
+        android:id="@+id/txtDesistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="-213dp"
+        android:text="DESISTÊNCIAS" />
+
+    <TextView
+        android:id="@+id/txtDesaparecidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="-216dp"
+        android:text="DESAPARECIDAS" />
+
+    <TextView
+        android:id="@+id/txtCanceladas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="-203dp"
+        android:text="CANCELADAS" />
+
+    <TextView
+        android:id="@+id/txtAmarela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="5dp"
+        android:text="AMARELA" />
+
+    <TextView
+        android:id="@+id/txtVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="12dp"
+        android:text="VERDE" />
+
+    <TextView
+        android:id="@+id/txtAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="15dp"
+        android:text="AZUL" />
+
+    <TextView
+        android:id="@+id/txtSemclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtZerar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="-43dp"
+        android:text="SEM CLASSIFICAÇÃO" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/txtData"
+        android:src="@drawable/vermelha" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginEnd="-153dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/txtData"
+        android:src="@drawable/vermelha" />
+
+    <ImageView
+        android:id="@+id/imgOrtopedia"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="-8dp"
+        android:layout_toEndOf="@+id/edtOrtopedia"
+        android:src="@drawable/ortopedia" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="-92dp"
+        android:layout_toEndOf="@+id/edtOrtopedia"
+        android:src="@drawable/cirurgico" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="-173dp"
+        android:layout_toEndOf="@+id/edtOrtopedia"
+        android:src="@drawable/desistencia" />
+
+    <ImageView
+        android:id="@+id/imgDsp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="-260dp"
+        android:layout_toEndOf="@+id/edtOrtopedia"
+        android:src="@drawable/desaparecidas" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtVermelha"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-342dp"
+        android:layout_toEndOf="@+id/edtOrtopedia"
+        android:src="@drawable/canceladas" />
+
+    <ImageView
+        android:id="@+id/imgSave"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/edtSemclass"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-206dp"
+        android:layout_toStartOf="@+id/edtSemclass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="532dp"
+        android:layout_toEndOf="@+id/txtVerde"
+        android:lineSpacingExtra="10sp"
+        android:text="SALVAR"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif" />
+</RelativeLayout>

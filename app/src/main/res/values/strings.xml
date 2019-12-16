@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sistema Hospitalar</string>
+    <string name="title_activity_menuzinho">menuzinho</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="textView2">Data: </string>
+    <string name="txtData">01/01/1900</string>
+    <string name="txtID">-</string>
+    <string name="txtVermelha">0</string>
+    <string name="txtCirurgico">0</string>
+    <string name="txtOrtopedia">0</string>
+    <string name="txtAmarela">0</string>
+    <string name="txtVerde">0</string>
+    <string name="txtCanceladas">0</string>
+    <string name="txtDesaparecidas">0</string>
+    <string name="txtAzul">0</string>
+    <string name="txtDesistencia">0</string>
+    <string name="txtSemclass">0</string>
+    <string name="logcomgoog">Login com Gmail</string>
+    <string name="hospitais_prompt">Escolha um hospital</string>
+    <string-array name="hospitais_arrays">
+        <item>Hospital...</item>
+        <item>Hospital Unimed Itapetininga</item>
+        <item>Hospital Unimed Sorocaba</item>
+        <item>Hospital Regional de Itapetininga</item>
+        <item>Conjunto Hospitalar de Sorocaba</item>
+        <item>Hospital Regional de Sorocaba</item>
+        <item>Hospital Amaral Carvalho - Jaú</item>
+        <item>Hospital Oftalmológico de Sorocaba - BOS</item>
+    </string-array>
+</resources>

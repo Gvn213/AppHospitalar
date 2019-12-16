@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://apphospitalar-81592.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">490876384584</string>
+    <string name="google_api_key" translatable="false">AIzaSyDzUpq41986omMMbAsYH_9YfTFpjmHkdC8</string>
+    <string name="google_app_id" translatable="false">1:490876384584:android:27e14dafe7b2a1b2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzUpq41986omMMbAsYH_9YfTFpjmHkdC8</string>
+    <string name="google_storage_bucket" translatable="false">apphospitalar-81592.appspot.com</string>
+    <string name="project_id" translatable="false">apphospitalar-81592</string>
+</resources>

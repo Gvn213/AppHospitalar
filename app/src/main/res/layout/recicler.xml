@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclercont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarrec"
+        android:layout_width="81dp"
+        android:layout_height="107dp"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/colorhosp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/txtAA"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-206dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/progressBarrec"
+        android:src="@drawable/contagemvazia"
+        android:text="hello"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="307dp"
+        android:layout_toEndOf="@+id/imageView22"
+        android:text="  Não há contagens cadastradas.\n\n               Acesse a guia '+'"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAAAA"
+        android:layout_width="273dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="304dp"
+        android:layout_toEndOf="@+id/imageView22"
+        android:text="  Não há transferências\n          cadastradas."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+</RelativeLayout>

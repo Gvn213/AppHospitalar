@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "490876384584",
+    "firebase_url": "https://apphospitalar-81592.firebaseio.com",
+    "project_id": "apphospitalar-81592",
+    "storage_bucket": "apphospitalar-81592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490876384584:android:27e14dafe7b2a1b2",
+        "android_client_info": {
+          "package_name": "com.example.patriciasantos.apphospitalar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490876384584-6boh8etttskl8hl6jh5f87aljfsa890s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patriciasantos.apphospitalar",
+            "certificate_hash": "a24e2a2f3a019b15bc040f187d3063844294d9ec"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzUpq41986omMMbAsYH_9YfTFpjmHkdC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490876384584-r3ub92vch1bvq81ehetprev9h2p799ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patriciasantos.apphospitalar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.zxing.client.android.SCAN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cadastro.LoginActivity"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".graficoteste"
+            android:label=""
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Cadastro.CadastroActivity"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".detalhescont"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigovermelha"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigoamarela"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigoazul"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigocanceladas"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigodesistencia"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigodesaparecidas"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigoverde"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigoortopedia"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigocirurgico"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".codigos_barras.codigosemclass"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Perfil"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResetSenha"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TransferenciasPasta.consultrans2"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TransferenciasPasta.detalhesconsu"
+            android:label=""
+            android:screenOrientation="portrait"/>
+    </application>
+</manifest>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContagemPasta.abacontagem">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignBottom="@+id/txtRe2"
+        android:layout_marginEnd="-73dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_toStartOf="@+id/txtRe2"
+        app:srcCompat="@drawable/app" />
+
+    <TextView
+        android:id="@+id/txtRe2"
+        android:layout_width="302dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/txtData"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginBottom="-47dp"
+        android:text="Relatório de Atendimentos"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtDatainicio"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="246dp"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Data..."
+        android:inputType="none"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/edtDatafim"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="304dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:hint="Data..."
+        android:inputType="none"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/txtDatainicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="248dp"
+        android:text="Data Início:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDatafim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDatainicio"
+        android:layout_alignBottom="@+id/edtDatafim"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="6dp"
+        android:text="Data Fim:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtAmarela"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVerde"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="234dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtSemclass"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtCanceladas"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/imageView18"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtData"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="-33dp"
+        android:text="DATA "
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtOrtopedia"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="141dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:singleLine="false"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtDesaparecidas"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="208dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtDesistencia"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="271dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtCanceladas"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginLeft="194dp"
+        android:layout_marginTop="347dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtVermelha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtOrtopedia"
+        android:layout_alignStart="@+id/edtAmarela"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:text="VERMELHA"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtDesistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtOrtopedia"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="68dp"
+        android:text="DESISTÊNCIA"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtCanceladas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtOrtopedia"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="136dp"
+        android:text="CANCELADAS"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtVermelha"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVermelha"
+        android:layout_alignStart="@+id/edtAzul"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-1dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:singleLine="false"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtVermelha"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="-119dp"
+        android:layout_marginTop="-1dp"
+        android:text="AZUL"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtDesaparecidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtVermelha"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-60dp"
+        android:text="DESAPARECIDAS"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtAzul"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDesistencia"
+        android:layout_alignEnd="@+id/edtCirurgico"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="181dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAzul"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="-126dp"
+        android:layout_marginTop="5dp"
+        android:text="VERDE"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtOrtopedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAzul"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="-142dp"
+        android:layout_marginTop="-191dp"
+        android:text="ORTOPEDIA"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtCirurgico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAzul"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-195dp"
+        android:text="CIRURGICO"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAmarela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAzul"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="80dp"
+        android:text="AMARELA"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtSemclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAzul"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="86dp"
+        android:text="SEM CLASSIFICACAO"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtVerde"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVerde"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="245dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:numeric="integer"
+        android:text=""
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgOrtopedia"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/edtOrtopedia"
+        android:layout_marginStart="-177dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/edtSemclass"
+        android:src="@drawable/ortopedia"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edtDesaparecidas"
+        android:layout_alignEnd="@+id/txtSemclass"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="163dp"
+        android:src="@drawable/azul"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/desistencia"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/edtVermelha"
+        android:layout_alignEnd="@+id/txtSemclass"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="163dp"
+        android:src="@drawable/vermelha"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVerde"
+        android:layout_alignStart="@+id/imageView13"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-7dp"
+        android:src="@drawable/verde"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/edtSemclass"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/amarela"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignBottom="@+id/edtAmarela"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/semclass"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignBottom="@+id/edtVerde"
+        android:layout_marginStart="319dp"
+        android:layout_marginBottom="-3dp"
+        android:src="@drawable/canceladas" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/txtCirurgico"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtCirurgico"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtOrtopedia"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="-4dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/edtDesaparecidas"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/desaparecidas"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/edtOrtopedia"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/cirurgico"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_alignBottom="@+id/imageView18"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="-3dp"
+        android:src="@drawable/canceladas"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView30"
+        android:layout_alignStart="@+id/txtRe2"
+        android:layout_marginStart="-59dp"
+        android:layout_marginBottom="-35dp"
+        android:text="Informe a Data Inicial e a Data Final para gerar o relatório gráfico."
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+</RelativeLayout>

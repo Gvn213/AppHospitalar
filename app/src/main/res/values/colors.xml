@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a90a0909</color>
+    <color name="colorPrimaryDark">#da4c4c4d</color>
+    <color name="colorAccent">#b10712</color>
+    <color name="colorAzul">#3288d9</color>
+    <color name="colorhosp">#83d3bc</color>
+    <color name="colorhospi">#99bbff</color>
+
+    <color name="corVermelha">#FF0000</color>
+    <color name="corAmarela">#FFFF00</color>
+    <color name="corVerde">#008000</color>
+    <color name="corAzul">#00008B</color>
+    <color name="corSemclass">#F8F8FF</color>
+    <color name="corOrtopedia">#E0FFFF</color>
+    <color name="corCirurgico">#4F4F4F</color>
+    <color name="corDesistencias">#4169E1</color>
+    <color name="corDesaparecidas">#808000</color>
+    <color name="corCanceladas">#83d3bc</color>
+</resources>
